@@ -46,6 +46,7 @@ There are a number of planned features for this downloader. There is no date on 
 - Duplicate checking. If the same link has been passed in multiple times, they should either be ignored or the user should be prompted (or both, perhaps with a flag)
 - A `-f` flag, to ignore all warnings and push ahead, downloading everything without checking
 - Ability to pass in links to profiles. I think ImageFap profiles can vary in structure, and therefore this may be a difficult task. I have only briefly looked into it
+- Ability to name folders using a flag, for example `python3.6 main.py http://www.imagefap.com/pictures/6011052/Lucy-Pinder http://www.imagefap.com/pictures/6433324/Emma-Glover-See-Thru http://www.imagefap.com/pictures/6288310/Lucy-V -o lucy-pinder-gallery emma-glover-gallery lucy-collett-gallery`
 - Add more cake
 
 ## License
